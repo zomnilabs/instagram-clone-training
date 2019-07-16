@@ -25,7 +25,7 @@ i.Nav {
     background-repeat: no-repeat;
     height: 35px;
     width: 176px;
-    text-indent: -1000%
+    text-indent: -1000%;
   }
   .Nav-user-logo{
 	background: url(../../sprite.png) no-repeat -728px -249px;
@@ -41,5 +41,7 @@ i.Nav {
     position: fixed;
     top: 15px;
     margin-left: 1000px;
+    text-indent: 1000%;
+
 
 }
