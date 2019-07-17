@@ -2,8 +2,10 @@ import React, { Component } from "react";
 import "./App.css";
 import Header from "./components/Header";
 import Post from "./components/Home";
+
 import Cards from "./components/Cards";
 import Profile from "./components/Profile";
+import CommentBox from "./components/CommentBox";
 
 //import Container from "./components/Container";
 class App extends Component {
@@ -25,6 +27,9 @@ class App extends Component {
             caption="Love The Nature!"
             image="https://www.postmyhub.com/wp-content/uploads/2018/07/adventure.jpg"
           />
+          <div className="avatar">
+            <CommentBox />
+          </div>
           <Post
             nickname="Manuel"
             avatar="https://i.pinimg.com/originals/07/dc/ae/07dcae38219645387fee0cb543e37e5a.jpg"

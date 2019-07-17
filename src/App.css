@@ -9,4 +9,13 @@
   transition: height 0.2s ease-in-out;
   height: 70px;
 }
+.avatar{
+  border-radius: 0px;
+    border: 2px solid #e6e6e6;
+    background-color: #fff;
+    margin-top: 0%;
+  
+    margin-left : 20%;
+    margin-right: 20%;
+}
 
