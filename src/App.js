@@ -5,20 +5,20 @@ import Post from "./components/Home";
 import Cards from "./components/Cards";
 import Profile from "./components/Profile";
 
-//import Container from "./components/Container";
 class App extends Component {
   render() {
     return (
       <div className="All">
         <Header className="Nav" />
-        {/* <div>
+        <div>
           <Profile />
         </div>
 
         <div>
           <Cards />
-        </div> */}
-        <section className="App-main">
+        </div>
+
+        {/* <section className="App-main">
           <Post
             nickname="IamJemae"
             avatar="https://i.ytimg.com/vi/7xWxpunlZ2w/maxresdefault.jpg"
@@ -39,8 +39,8 @@ class App extends Component {
             image="https://s18798.pcdn.co/dispatch/wp-content/uploads/sites/8960/2019/03/iStock-610259354.jpg"
           />
 
-          {/* more posts */}
-        </section>
+          {more posts
+        </section> */}
       </div>
     );
   }
