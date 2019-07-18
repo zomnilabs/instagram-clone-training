@@ -11,6 +11,7 @@ class App extends Component {
       <Router>
         <div className="All">
           <Header />
+
           <Switch>
             <Route path="/" exact component={Home} />
             <Route path="/user" component={User} />
