@@ -4,17 +4,25 @@ import "./header.css";
 class Header extends React.Component {
   render() {
     return (
-      <nav className="Nav">
-        <div className="Nav-menus">
-          <div className="Nav-brand">
-            <a className="Nav-brand-logo" href="/">
-              Instagram
-            </a>
-            <a className="Nav-user-logo" href="/">
-              user
-            </a>
-          </div>
-        </div>
+      // <nav className="Nav">
+      //   <div className="Nav-menus">
+      //     <div className="Nav-brand">
+      //       <a className="Nav-brand-logo" href="/">
+      //         Instagram
+      //       </a>
+      //       <a className="Nav-user-logo" href="/">
+      //         user
+      //       </a>
+      //     </div>
+      //   </div>
+      // </nav>
+
+      <nav>
+        <h3>Logo</h3>
+        <ul>
+          <li>Home</li>
+          <li>User</li>
+        </ul>
       </nav>
     );
   }
