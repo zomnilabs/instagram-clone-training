@@ -61,19 +61,16 @@ nav{
   height: 77px;
 }
 
-.nav-links{
-  display: block;
-    background-position: -176px 0px;
-    /* background-image: url(./sprite.png); */
-    background-size: 405px 379px;
-    background-repeat: no-repeat;
-    height: 35px;
-    width: 176px;
-    display: flex;
-  justify-content: space-around;
-  align-items: center;
-  list-style: none;
-
+ ul{
+  
+ 
+ float: right;
+    height: 77px;
+    width: 70%;
+    margin-left: 300px;
+    margin-top: 0px;
+   
+  
 }
 
 h3{
@@ -89,4 +86,21 @@ h3{
   align-items: center;
   list-style: none;
 
+}
+
+
+.logo img{
+  margin-top: 0px;
+  margin-left: 150px;
+
+  width: 200px;
+  height: 200px;
+}
+.userlogo{
+ margin-top: 0%;
+  width: 40px;
+  height: 40px;
+}
+.user{
+  margin-top: 0px;
 }
