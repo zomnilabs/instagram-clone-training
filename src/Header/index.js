@@ -5,26 +5,20 @@ import { Link } from "react-router-dom";
 class Header extends React.Component {
   render() {
     return (
-      // <nav className="Nav">
-      //   <div className="Nav-menus">
-      //     <div className="Nav-brand">
-      //       <a className="Nav-brand-logo" href="/">
-      //         Instagram
-      //       </a>
-      //       <a className="Nav-user-logo" href="/">
-      //         user
-      //       </a>
-      //     </div>
-      //   </div>
-      // </nav>
-
       <nav>
         <Link to="/">
-          <h3>Instagram</h3>
+          <div className="logo">
+            <img src="https://images.vexels.com/media/users/3/137201/isolated/preview/83b5f2a86fa0ec9f938664da94a9bc55-instagram-silhouette-stroke-logo-by-vexels.png" />
+          </div>
         </Link>
         <ul className="nav-links">
           <Link to="/user">
-            <li>User</li>
+            <div className="user">
+              <img
+                className="userlogo"
+                src="https://png.pngtree.com/svg/20160308/db33b0089e.svg"
+              />
+            </div>
           </Link>
         </ul>
       </nav>
