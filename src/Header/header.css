@@ -1,4 +1,4 @@
-i.Nav {
+ /* .Nav {
     background-color: #fff;
     border-bottom: 1px solid rgba(0, 0, 0, 0.0975);
     position: fixed;
@@ -8,8 +8,8 @@ i.Nav {
     -webkit-transition: height 0.2s ease-in-out;
     transition: height 0.2s ease-in-out;
     height: 77px;
-  }
-  .Nav-menus {
+  } */
+  /* .Nav-menus {
     display: flex;
     flex-direction: row;
     height: 77px;
@@ -42,4 +42,46 @@ i.Nav {
     top: 15px;
     margin-left: 1000px;
 
+}  */
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background: white;
+  color: black;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.0975);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+  -webkit-transition: height 0.2s ease-in-out;
+  transition: height 0.2s ease-in-out;
+  height: 77px;
+}
+
+.nav-links{
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+
+}
+
+h3{
+  display: block;
+    background-position: -176px 0px;
+    /* background-image: url(./sprite.png); */
+    background-size: 405px 379px;
+    background-repeat: no-repeat;
+    height: 35px;
+    width: 176px;
+    display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+
+    
 }

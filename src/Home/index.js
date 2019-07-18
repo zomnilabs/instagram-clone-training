@@ -1,5 +1,5 @@
 import React from "react";
-import "./header.css";
+import "./index.css";
 
 class Home extends React.Component {
   render() {

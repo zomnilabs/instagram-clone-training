@@ -1,5 +1,6 @@
 import React from "react";
 import "./header.css";
+import { Link } from "react-router-dom";
 
 class Header extends React.Component {
   render() {
@@ -18,10 +19,13 @@ class Header extends React.Component {
       // </nav>
 
       <nav>
-        <h3>Logo</h3>
-        <ul>
-          <li>Home</li>
-          <li>User</li>
+        <Link to="/">
+          <h3>Instagram</h3>
+        </Link>
+        <ul className="nav-links">
+          <Link to="/user">
+            <li>User</li>
+          </Link>
         </ul>
       </nav>
     );
