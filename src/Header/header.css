@@ -73,7 +73,7 @@ nav{
 h3{
   display: block;
     background-position: -176px 0px;
-    /* background-image: url(./sprite.png); */
+    /* \background-image: url(./sprite.png); */
     background-size: 405px 379px;
     background-repeat: no-repeat;
     height: 35px;
@@ -83,5 +83,4 @@ h3{
   align-items: center;
   list-style: none;
 
-    
 }
