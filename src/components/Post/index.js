@@ -1,7 +1,7 @@
 import React from "react";
-import "./index.css";
+import "./Post.css";
 
-class Home extends React.Component {
+class Post extends React.Component {
   render() {
     const nickname = this.props.nickname;
     const avatar = this.props.avatar;
@@ -33,4 +33,4 @@ class Home extends React.Component {
     );
   }
 }
-export default Home;
+export default Post;
