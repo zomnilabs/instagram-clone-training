@@ -1,0 +1,38 @@
+.round-pic{
+    border-radius: 60%;
+    height: 50px;
+    width: 50px;
+    margin-right:1%;
+    float: right;
+    }
+    .profile{
+       margin-right: 400px;
+        font-size: 15px;
+        float: right;
+        
+    }
+    .story{
+        margin-left: 500px;
+        margin-right: 80px;
+        margin-top: 40px;
+        width: 30%;
+        border-radius: 3px;
+        border: 1px solid #e6e6e6;
+        background-color: #fff;
+        float: right;
+      
+    }
+    .round-pic1{
+    border-radius: 60%;
+    height: 50px;
+    width: 50px;
+    margin-right:0%;
+    
+    }
+    .profile1{
+        display: flex;
+        font-size: 15px;
+        margin-right: 40px;
+        float: right;
+       
+    }
